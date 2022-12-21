@@ -1,8 +1,9 @@
 public class PoisonMatango extends Matango10_q10_3 {
     int poisonAttack = 5;
+    int hp = 80;
 
     public PoisonMatango(char suffix) {
-        super('A');
+        super(suffix);
         this.suffix = suffix;
     }
 
@@ -18,5 +19,10 @@ public class PoisonMatango extends Matango10_q10_3 {
 
         }
 
+    }
+
+    // 逃げる
+    public void run() {
+        System.out.println("お化け毒キノコ" + this.suffix + "は逃げ出した!");
     }
 }
