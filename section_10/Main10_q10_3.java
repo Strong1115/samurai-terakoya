@@ -1,22 +1,22 @@
 public class Main10_q10_3 {
     public static void main(String[] args) {
-        Hero h = new Hero("ほのか");
+        Hero hero = new Hero("ほのか");
 
-        Matango10_q10_3 m = new Matango10_q10_3('A');
-        PoisonMatango pm = new PoisonMatango('B');
+        Matango10_q10_3 matango = new Matango10_q10_3('A');
+        PoisonMatango poisonMatango = new PoisonMatango('B');
 
         System.out.println("勇者" + h.name + "誕生!");
         System.out.println("お化けキノコ" + m.suffix + "が現れた!");
         System.out.println("お化け毒キノコ" + pm.suffix + "が現れた!");
 
-        m.attack(h);
-        pm.attack(h);
+        matango.attack(hero);
+        poisonMatango.attack(hero);
 
-        h.attack(m);
-        h.attack(pm);
+        hero.attack(matango);
+        hero.attack(poisonMatango);
 
-        m.run();
-        pm.run();
+        matango.run();
+        poisonMatango.run();
 
     }
 
