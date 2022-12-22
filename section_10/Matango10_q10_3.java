@@ -12,4 +12,9 @@ public class Matango10_q10_3 {
         h.hp -= 10;
     }
 
+    // 逃げる
+    public void run() {
+        System.out.println("お化けキノコ" + this.suffix + "は逃げ出した!");
+    }
+
 }
