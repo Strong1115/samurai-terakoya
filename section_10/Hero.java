@@ -4,6 +4,7 @@ public class Hero {
 
     public Hero(String name) {
         this.name = name;
+        System.out.println("勇者" + this.name + "誕生!");
     }
 
     // 戦う
