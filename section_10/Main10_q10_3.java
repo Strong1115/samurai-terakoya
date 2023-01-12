@@ -5,7 +5,7 @@ public class Main10_q10_3 {
         Matango10_q10_3 matango = new Matango10_q10_3('A');
         System.out.println("お化けキノコ" + matango.suffix + "誕生!");
 
-        PoisonMatango poisonMatango = new PoisonMatango('B');
+        PoisonMatango_2 poisonMatango = new PoisonMatango_2('B');
 
         matango.attack(hero);
         poisonMatango.attack(hero);

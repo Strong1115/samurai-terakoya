@@ -6,10 +6,10 @@ public class Matango10_q10_3 {
         this.suffix = suffix;
     }
 
-    public void attack(Hero h) {
+    public void attack(Hero hero) {
         System.out.println("お化けキノコ" + this.suffix + "の攻撃");
         System.out.println("10のダメージ");
-        h.hp -= 10;
+        hero.hp -= 10;
     }
 
     // 逃げる

@@ -14,7 +14,7 @@ public class Hero {
         System.out.println("お化けキノコ" + m.suffix + "に5ポイントのダメージをあたえた!");
     }
 
-    public void attack(PoisonMatango pm) {
+    public void attack(PoisonMatango_2 pm) {
         System.out.println(this.name + "の攻撃!");
         pm.hp -= 5;
         System.out.println("お化け毒キノコ" + pm.suffix + "に5ポイントのダメージをあたえた!");
