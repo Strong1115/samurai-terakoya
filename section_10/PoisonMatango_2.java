@@ -7,8 +7,7 @@ public class PoisonMatango_2 extends Matango10_q10_3 {
         System.out.println("お化け毒キノコ" + this.suffix + "誕生!");
     }
 
-    public void attack(Hero hero) {
-        super.attack(hero);
+    public void poisonAttac(Hero hero) {
 
         for (int poisonAttack = 1; poisonAttack <= 6; poisonAttack++) {
 
@@ -26,4 +25,10 @@ public class PoisonMatango_2 extends Matango10_q10_3 {
             }
         }
     }
+
+    // 逃げる
+    public void run() {
+        System.out.println("お化け毒キノコ" + this.suffix + "は逃げ出した!");
+    }
+
 }
