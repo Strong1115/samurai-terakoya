@@ -11,7 +11,7 @@ public class PoisonMatango_4 extends Matango10_q10_4 {
 
         if (hero.hp <= 0) {
             System.out.println("モンスターに負けました");
-            System.out.println("GAME OVER");
+            System.out.println("<GAME OVER>");
 
         } else {
             System.out.println("お化け毒キノコ" + this.suffix + "の攻撃");

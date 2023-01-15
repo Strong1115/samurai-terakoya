@@ -18,6 +18,7 @@ public class Hero_2 {
             System.out.println(this.name + "の攻撃!");
             matango.hp -= 15;
             System.out.println("お化けキノコ" + matango.suffix + "に15ポイントのダメージをあたえた!");
+            System.out.println("お化けキノコ" + matango.suffix + "のHPは残り" + matango.hp);
         }
     }
 
@@ -31,6 +32,7 @@ public class Hero_2 {
             System.out.println(this.name + "の攻撃!");
             poisonMatango.hp -= 10;
             System.out.println("お化け毒キノコ" + poisonMatango.suffix + "に10ポイントのダメージをあたえた!");
+            System.out.println("お化け毒キノコ" + poisonMatango.suffix + "のHPは残り" + poisonMatango.hp);
 
         }
     }
